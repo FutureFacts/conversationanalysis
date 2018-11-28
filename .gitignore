@@ -8,4 +8,7 @@
 # .tfvars files
 *.tfvars
 
+
 azure_creds.sh
+# MacOS specific files
+.DS_Store
