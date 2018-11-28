@@ -15,16 +15,6 @@ resource "azurerm_storage_container" "audio_container" {
   container_access_type = "private"
 }
 
-resource "azurerm_storage_blob" "audio_files" {
-  name                   = "audio_files"
-  resource_group_name    = "${azurerm_resource_group.converstational_analysis.name}"
-  storage_account_name   = "${azurerm_storage_account.ca_storage.name}"
-  storage_container_name = "${azurerm_storage_container.audio_container.name}"
-  type = "page"
-  size = 5120
-}
-
-
 #--------------Text Storage---------------------------
 
 resource "azurerm_storage_container" "text_container" {
@@ -32,13 +22,4 @@ resource "azurerm_storage_container" "text_container" {
   resource_group_name   = "${azurerm_resource_group.converstational_analysis.name}"
   storage_account_name  = "${azurerm_storage_account.ca_storage.name}"
   container_access_type = "private"
-}
-
-resource "azurerm_storage_blob" "text_files" {
-  name                   = "text_files"
-  resource_group_name    = "${azurerm_resource_group.converstational_analysis.name}"
-  storage_account_name   = "${azurerm_storage_account.ca_storage.name}"
-  storage_container_name = "${azurerm_storage_container.text_container.name}"
-  type = "page"
-  size = 5120
 }
