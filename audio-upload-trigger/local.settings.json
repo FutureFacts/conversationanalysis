@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "ScmType": "None",
+    "convanalysis_STORAGE": "DefaultEndpointsProtocol=https;AccountName=convanalysis;AccountKey=PE8Qhrg3TASuMaiWJNNFnSzkaLJ/D7WVmfjX7PLLhv6oD+/FaEWFB29XpZOhRSv/Om5z0EZuv4MQNq4s1wC3kA==",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "e937286a-cc1a-4ce9-ab00-1323f4433c34",
+    "WEBSITE_NODE_DEFAULT_VERSION": "8.11.1",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=convanalysis;AccountKey=PE8Qhrg3TASuMaiWJNNFnSzkaLJ/D7WVmfjX7PLLhv6oD+/FaEWFB29XpZOhRSv/Om5z0EZuv4MQNq4s1wC3kA==",
+    "WEBSITE_CONTENTSHARE": "function-ca-audio-upload8b12",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "function-ca-audio-upload",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=convanalysis;AccountKey=PE8Qhrg3TASuMaiWJNNFnSzkaLJ/D7WVmfjX7PLLhv6oD+/FaEWFB29XpZOhRSv/Om5z0EZuv4MQNq4s1wC3kA=="
+  }
+}

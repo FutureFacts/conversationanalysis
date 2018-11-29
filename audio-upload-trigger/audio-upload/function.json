@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "ca-audio-container/{name}",
+      "connection": "convanalysis_STORAGE"
+    }
+  ],
+  "disabled": false
+}
