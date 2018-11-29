@@ -18,6 +18,6 @@ resource "azurerm_function_app" "function-ca-audio-upload" {
   storage_connection_string = "${azurerm_storage_account.ca_storage.primary_connection_string}"
 
   app_settings = {
-  "WEBSITE_RUN_FROM_ZIP" = "https://github.com/FutureFacts/conversationanalysis/tree/master/audio-upload-trigger"
+  "WEBSITE_RUN_FROM_ZIP" = "https://github.com/FutureFacts/conversationanalysis/tree/master/function_app.zip"
   }
 }
